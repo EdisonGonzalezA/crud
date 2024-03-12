@@ -5,7 +5,7 @@ import { EmpleadoDTO } from './empleado.dto';
 
 @Injectable()
 export class EmpleadosService {
-     empleados: IEmpleado[] = [];
+  empleados: IEmpleado[] = [];
   todos() {
     return this.empleados;
   }
